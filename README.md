@@ -1,15 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) website template project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
-First, run the development server:
+First, clone this repo down to your local project. Rename the project, make your changes, and push the code up to your own repo.
+
+```bash
+git clone https://github.com/JasonK97/nextjs-site-template.git
+```
+
+Second, install node_packages:
+
+```bash
+npm install
+# or
+yarn install
+```
+
+Third, run the development server:
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
