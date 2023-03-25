@@ -22,14 +22,29 @@ export const StickyHeader = () => {
           /> */}
           LOGO
         </Link>
-      </div>
-      
-      <div className={styles.header_section}>
         <Link href='/' className={styles.header_link}>
           Home
         </Link>
         <Link href='/about' className={styles.header_link}>
           About
+        </Link>
+      </div>
+      
+      <div className={styles.header_section}>
+        <Link href='/products' className={styles.header_link}>
+          Products
+        </Link>
+        <Link href='/blog' className={styles.header_link}>
+          Blog
+        </Link>
+      </div>
+
+      <div className={styles.header_section}>
+        <Link href='#' className={styles.header_link}>
+          Log In
+        </Link>
+        <Link href='#' className={styles.header_link_signup}>
+          Sign Up
         </Link>
       </div>
     </header>
