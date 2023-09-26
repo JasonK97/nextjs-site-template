@@ -24,6 +24,12 @@ npm run dev
 yarn dev
 ```
 
+When you are ready to commit and push your changes, make sure to run the following commands to get your code to the right place:
+
+```bash
+git remote set-url origin https://github.com/YourUsername/your-nextjs-repo.git
+```
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
